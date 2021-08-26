@@ -26,7 +26,7 @@ function formatAndSendTweet(event) {
     let tweetText;
 
     if (isEthSale) {
-        tweetText = `Sad Frog # ${tokenName} bought for ${formattedEthPrice}Ξ ($${formattedUsdPrice}) #NFT #SadFrogsDistrict ${openseaLink}`;
+        tweetText = `Sad Frog # ${tokenName} bought for ${formattedEthPrice}Ξ ($${formattedUsdPrice}) #NFT ${openseaLink}`;
     } else {
         tweetText = `${tokenName} bought for ${formattedUsdPrice} ${tokenSymbol} #NFT ${openseaLink}`;
     }
